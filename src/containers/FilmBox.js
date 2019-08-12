@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
+import FilmList from '../components/FilmList';
 
 class FilmBox extends Component {
   render() {
     return(
+
       <div className="film-box">
-        Hello World! I'm a FilmBox.
+        <h1>Upcoming Films</h1>
+        <FilmList />
       </div>
     )
 
