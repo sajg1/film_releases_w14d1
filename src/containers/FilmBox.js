@@ -10,3 +10,5 @@ class FilmBox extends Component {
 
   }
 }
+
+export default FilmBox;
